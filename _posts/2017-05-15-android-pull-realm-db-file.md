@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Android Realm 파일 외부로 꺼내기”
+title: "Android Realm”
 description: 
 categories: [Android]
 tags:[Realm]
@@ -28,7 +28,7 @@ adb pull 디렉토리/파일명(기본 : default.realm)
 
 *성공했다면 Realm Browser에서 열어보자.*
 
-*! ADB 사용 중 문제(?)가 생겼다면, 루트 권한을 부여한 후 실행해보자.*
+*ADB 사용 중 문제(?)가 생겼다면, 루트 권한을 부여한 후 실행해보자.*
 
 ```
 adb root
