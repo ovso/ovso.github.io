@@ -2,8 +2,8 @@
 layout: post
 title: "Android APK Auto sign and Change name"
 description: 
-categories: [Gradle]
-tags: [Android]
+categories: [Android]
+tags: [Gradle]
 redirect_from:
   - /2017/08/18/
 ---

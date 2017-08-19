@@ -2,8 +2,8 @@
 layout: post
 title: "Android 라이브러리 충돌 문제"
 description: 
-categories: [Gradle]
-tags: [Android]
+categories: [Android]
+tags: [Gradle]
 redirect_from:
   - /2017/08/18/
 ---
