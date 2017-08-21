@@ -45,3 +45,5 @@ redirect_from:
 #### [Otto](http://square.github.io/otto/){:target="_blank"} : EventBus
 
 #### [Hugo](https://github.com/JakeWharton/hugo){:target="_blank"} : Log Library
+
+#### [AndroidPDFViewer](https://github.com/barteksc/AndroidPdfViewer){:target="_blank"}
