@@ -47,3 +47,6 @@ redirect_from:
 #### [Hugo](https://github.com/JakeWharton/hugo){:target="_blank"} : Log Library
 
 #### [AndroidPDFViewer](https://github.com/barteksc/AndroidPdfViewer){:target="_blank"}
+
+#### [MaterialSearchView](https://github.com/MiguelCatalan/MaterialSearchView){:target="_blank"}
+
