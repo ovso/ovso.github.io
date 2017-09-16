@@ -17,7 +17,7 @@ adb를 제대로 사용하려면 먼저, [adb의 기본](https://developer.andro
 ### 연결되어 있는 장치 목록
 
 ```
-jaeho$ adb devices
+adb devices
 List of devices attached
 080e3f0d45966	device // 단말
 emulator-5560	device
@@ -31,19 +31,19 @@ emulator-5554	device
 
 ```
 // 연결되어 있는 장치가 하나 일 때
-jaeho$ adb shell getprop ro.build.version.release
+adb shell getprop ro.build.version.release
 4.1.2
 
 // 연결되어 있는 장치가 두 개 이상일 때, 지정하여 나타내기
-jaeho$ adb -s emulator-5560 shell getprop ro.build.version.release
+adb -s emulator-5560 shell getprop ro.build.version.release
 4.1.2
 
 // USB에 연결되어 있는 실제 장치가 하나 일 때
-jaeho$ adb -d shell getprop ro.build.version.release 
+adb -d shell getprop ro.build.version.release 
 4.1.2
 
 // 실행중인 에뮬레이터가 하나 일 때
-jaeho$ adb -e shell getprop ro.build.version.release 
+adb -e shell getprop ro.build.version.release 
 4.1.2
 ```
 
@@ -51,19 +51,19 @@ jaeho$ adb -e shell getprop ro.build.version.release
 
 ```
 //연결되어 있는 장치가 하나 일 때
-jaeho$ adb shell getprop ro.build.version.sdk
+adb shell getprop ro.build.version.sdk
 16
 
 //연결되어 있는 장치가 두 개 이상일 때, 지정하여 나타내기
-jaeho$ adb -s emulator-5560 shell getprop ro.build.version.sdk
+adb -s emulator-5560 shell getprop ro.build.version.sdk
 16
 
 //USB에 연결되어 있는 실제 장치가 하나 일 때
-jaeho$ adb -d shell getprop ro.build.version.sdk
+adb -d shell getprop ro.build.version.sdk
 16
 
 // 실행중인 에뮬레이터가 하나 일 때
-jaeho$ adb -e shell getprop ro.build.version.sdk 
+adb -e shell getprop ro.build.version.sdk 
 16
 ```
 
@@ -73,13 +73,54 @@ jaeho$ adb -e shell getprop ro.build.version.sdk
 adb shell (-s emulator-5560:여러개일 경우) getprop
 ```
 
-### 응용
+### APK 설치
 
 ```
-// APK 설치
-adb -s emulator-5560 install -r(재설치) Sample.apk // 여러 장치가 있을 경우
-adb -d install -r(재설치) Sample.apk // USB연결된 장치가 하나만 있을 경우
+// 여러 장치가 있을 경우
+adb -s emulator-5560 install -r(재설치) Sample.apk
+
+// USB로 연결된 장치가 하나만 있을 경우
+adb -d install -r(재설치) Sample.apk
+
+// Emulator로 연결된 장치가 하나만 있을 경우
+adb -e install -r(재설치) Sample.apk
 ```
+
+### Logcat 명령
+
+##### 원하는 수준 이상의 로그 출력
+
+```
+adb logcat *:V // Verbose
+adb logcat *:D // Debug
+adb logcat *:I // Info
+adb logcat *:W // Warning
+adb logcat *:E // Error
+adb logcat *:F // Fatal
+adb logcat *:S // Silent(가장 높은 순위, 이경우 아무것도 출력되지 않음)
+```
+
+##### 특정 디바이스에서 원하는 수준 이상의 로그 출력
+
+```
+adb -s emulator-5554 logcat *:F
+```
+
+##### 특정 디바이스에서 원하는 수준과 원하는 태그 로그 출력
+
+```
+// *:S로 인해서 ActivityManager 태그와 OJH 태그만 출력 되도록 보장
+adb -s emulator-5554 logcat ActivityManager:I OJH:D *:S
+```
+
+##### 특정 디바이스에서 원하는 문자열을 포함하는 태그 로그 출력
+
+```
+// OJH를 포함하는 로그만 출력
+adb -s emulator-5554 logcat|grep OJH
+```
+
+
 
 ### 참고
 
