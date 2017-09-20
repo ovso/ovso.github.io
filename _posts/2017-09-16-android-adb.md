@@ -146,6 +146,8 @@ adb -s emulator-5554 logcat -v raw
 
 `long` — 모든 메타데이터 필드와 별도의 메시지를 빈 줄과 함께 표시합니다.
 
+
+
 ### 참고
 
 [https://developer.android.com/studio/command-line/adb.html?hl=ko](https://developer.android.com/studio/command-line/adb.html?hl=ko){:target="_blank"}
