@@ -3,8 +3,8 @@
 Gem::Specification.new do |spec|
   spec.name          = "jekyll-theme-simple-texture"
   spec.version       = "0.1.8"
-  spec.authors       = ["Yi Zeng"]
-  spec.email         = ["yi.zeng.dev@gmail.com"]
+  spec.authors       = ["JAEHO"]
+  spec.email         = ["ovsoce@gmail.com"]
 
   spec.summary       = ""
   spec.homepage      = ""
