@@ -2,8 +2,8 @@
 layout: post
 title: "Mac ADB 환경변수 설정하기"
 description: 
-categories: [other]
-tags: [other]
+categories: [mac]
+tags: [mac]
 redirect_from:
   - /2017/08/18/
 ---

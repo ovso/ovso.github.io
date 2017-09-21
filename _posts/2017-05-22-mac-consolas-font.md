@@ -2,8 +2,8 @@
 layout: post
 title: "Mac OS에 Consolas 폰트 설치"
 description: 
-categories: [other]
-tags: [other]
+categories: [mac]
+tags: [Mac]
 redirect_from:
   - /2017/08/18/
 ---
