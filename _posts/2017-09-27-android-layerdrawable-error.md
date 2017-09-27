@@ -8,7 +8,7 @@ redirect_from:
   - /2017/09/27/
 ---
 
-FloatingActionButton의 배경을 바꾸기 위해 **android:backgroundTint**를 사용했다. 배경색은 잘 나왔으나 아래와 같은 경고 에러가 발생했다. 그러나 에러만 발생한다. <u>동작하는데는 전혀 문제가 없다.</u>
+FloatingActionButton의 배경을 바꾸기 위해 **android:backgroundTint**를 사용했다. 배경색은 잘 나왔으나 아래와 같은 경고 에러가 발생했다. <u>동작하는 문제가 전혀 없다.</u>
 
 # 경고 에러(충돌)
 
