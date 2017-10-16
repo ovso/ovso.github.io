@@ -12,15 +12,15 @@ redirect_from:
 
 서버 요청 할 때, 항상 성공하면 좋겠지만 그렇지 않은 경우가 많은게 현실이다.
 
-[HTTP 상태코드 보기](https://ko.wikipedia.org/wiki/HTTP_%EC%83%81%ED%83%9C_%EC%BD%94%EB%93%9C){: target="_blank"}
-
 ## 4xx 요청 오류
+
+4xx 클래스의 상태 코드는 클라이언트에 오류가 있음을 나타낸다.
 
 - 400(잘못된 요청): 서버가 요청의 구문을 인식하지 못했다.
 - 401(권한 없음): 이 요청은 인증이 필요하다. 서버는 로그인이 필요한 페이지에 대해 이 요청을 제공할 수 있다. 상태 코드 이름이 권한 없음(Unauthorized)으로 되어 있지만 실제 뜻은 인증 안됨(Unauthenticated)에 더 가깝다.[[2\]](https://ko.wikipedia.org/wiki/HTTP_%EC%83%81%ED%83%9C_%EC%BD%94%EB%93%9C#cite_note-2)
 - 402(결제 필요): 이 요청은 결제가 필요합니다.
-- [403](https://ko.wikipedia.org/wiki/HTTP_403)(금지됨): 서버가 요청을 거부하고 있다. 예를 들자면, 사용자가 리소스에 대한 필요 권한을 갖고 있지 않다. (401은 인증 실패, 403은 인가 실패라고 볼 수 있음)
-- [404](https://ko.wikipedia.org/wiki/HTTP_404)(찾을 수 없음): 서버가 요청한 페이지를 찾을 수 없다. 예를 들어 서버에 존재하지 않는 페이지에 대한 요청이 있을 경우 서버는 이 코드를 제공한다.
+- [403](https://ko.wikipedia.org/wiki/HTTP_403){:target="_blank"}(금지됨): 서버가 요청을 거부하고 있다. 예를 들자면, 사용자가 리소스에 대한 필요 권한을 갖고 있지 않다. (401은 인증 실패, 403은 인가 실패라고 볼 수 있음)
+- [404](https://ko.wikipedia.org/wiki/HTTP_404){:target="_blank"}(찾을 수 없음): 서버가 요청한 페이지를 찾을 수 없다. 예를 들어 서버에 존재하지 않는 페이지에 대한 요청이 있을 경우 서버는 이 코드를 제공한다.
 - 405(허용되지 않는 방법): 요청에 지정된 방법을 사용할 수 없다.
 - 406(허용되지 않음): 요청한 페이지가 요청한 콘텐츠 특성으로 응답할 수 없다.
 - 407(프록시 인증 필요): 이 상태 코드는 401(권한 없음)과 비슷하지만 요청자가 프록시를 사용하여 인증해야 한다. 서버가 이 응답을 표시하면 요청자가 사용할 프록시를 가리키는 것이기도 한다.
@@ -34,17 +34,17 @@ redirect_from:
 - 415(지원되지 않는 미디어 유형): 요청이 요청한 페이지에서 지원하지 않는 형식으로 되어 있다.
 - 416(처리할 수 없는 요청범위): 요청이 페이지에서 처리할 수 없는 범위에 해당되는 경우 서버는 이 상태 코드를 표시한다.
 - 417(예상 실패): 서버는 Expect 요청 헤더 입력란의 요구사항을 만족할 수 없다.
-- 418(I'm a teapot, [RFC 2324](https://tools.ietf.org/html/rfc2324))
+- 418(I'm a teapot, [RFC 2324](https://tools.ietf.org/html/rfc2324){:target="_blank"})
 - 420(Enhance Your Calm, 트위터)
-- 422(처리할 수 없는 엔티티, WebDAV; [RFC 4918](https://tools.ietf.org/html/rfc4918))
-- 423(잠김,WebDAV; [RFC 4918](https://tools.ietf.org/html/rfc4918))
-- 424(실패된 의존성, WebDAV; [RFC 4918](https://tools.ietf.org/html/rfc4918))
+- 422(처리할 수 없는 엔티티, WebDAV; [RFC 4918](https://tools.ietf.org/html/rfc4918){:target="_blank"})
+- 423(잠김,WebDAV; [RFC 4918](https://tools.ietf.org/html/rfc4918){:target="_blank"})
+- 424(실패된 의존성, WebDAV; [RFC 4918](https://tools.ietf.org/html/rfc4918){:target="_blank"})
 - 424(메쏘드 실패, WebDAV)
 - 425(정렬되지 않은 컬렉션, 인터넷 초안)
-- 426(업그레이드 필요, [RFC 2817](https://tools.ietf.org/html/rfc2817))
-- 428(전제조건 필요, [RFC 6585](https://tools.ietf.org/html/rfc6585))
-- 429(너무 많은 요청, [RFC 6585](https://tools.ietf.org/html/rfc6585))
-- 431(요청 헤더 필드가 너무 큼, [RFC 6585](https://tools.ietf.org/html/rfc6585))
+- 426(업그레이드 필요, [RFC 2817](https://tools.ietf.org/html/rfc2817){:target="_blank"})
+- 428(전제조건 필요, [RFC 6585](https://tools.ietf.org/html/rfc6585){:target="_blank"})
+- 429(너무 많은 요청, [RFC 6585](https://tools.ietf.org/html/rfc6585){:target="_blank"})
+- 431(요청 헤더 필드가 너무 큼, [RFC 6585](https://tools.ietf.org/html/rfc6585){:target="_blank"})
 - 444(응답 없음, Nginx)
 - 449(다시 시도, 마이크로소프트)
 - 450(윈도 자녀 보호에 의해 차단됨, 마이크로소프트)
@@ -55,3 +55,28 @@ redirect_from:
 - 496(Cert 없음, Nginx)
 - 497(HTTP to HTTPS, Nginx)
 - 499(클라이언트가 요청을 닫음, Nginx)
+
+## 5xx 요청 오류
+
+서버가 유효한 요청을 명백하게 수행하지 못했음을 나타낸다.
+
+- 500(내부 서버 오류): 서버에 오류가 발생하여 요청을 수행할 수 없다.
+- 501(구현되지 않음): 서버에 요청을 수행할 수 있는 기능이 없다. 예를 들어 서버가 요청 메소드를 인식하지 못할 때 이 코드를 표시한다.
+- 502(불량 게이트웨이): 서버가 게이트웨이나 프록시 역할을 하고 있거나 또는 업스트림 서버에서 잘못된 응답을 받았다.
+- 503(서비스를 사용할 수 없음): 서버가 오버로드되었거나 유지관리를 위해 다운되었기 때문에 현재 서버를 사용할 수 없다. 이는 대개 일시적인 상태이다.
+- 504(게이트웨이 시간초과): 서버가 게이트웨이나 프록시 역할을 하고 있거나 또는 업스트림 서버에서 제때 요청을 받지 못했다.
+- 505(HTTP 버전이 지원되지 않음): 서버가 요청에 사용된 HTTP 프로토콜 버전을 지원하지 않는다.
+- 506(Variant Also Negotiates, [RFC 2295](https://tools.ietf.org/html/rfc2295){:target="_blank"})
+- 507(용량 부족, WebDAV; [RFC 4918](https://tools.ietf.org/html/rfc4918){:target="_blank"})
+- 508(루프 감지됨, WebDAV; [RFC 5842](https://tools.ietf.org/html/rfc5842){:target="_blank"})
+- 509(대역폭 제한 초과, Apache bw/limited extension)
+- 510(확장되지 않음, [RFC 2774](https://tools.ietf.org/html/rfc2774){:target="_blank"})
+- 511(네트워크 인증 필요, [RFC 6585](https://tools.ietf.org/html/rfc6585){:target="_blank"})
+- 598(네트워크 읽기 시간초과 오류, 알 수 없음)
+- 599(네트워크 연결 시간초과 오류, 알 수 없음)
+
+
+
+
+
+[HTTP 상태코드 전체 보기](https://ko.wikipedia.org/wiki/HTTP_%EC%83%81%ED%83%9C_%EC%BD%94%EB%93%9C){: target="_blank"}
