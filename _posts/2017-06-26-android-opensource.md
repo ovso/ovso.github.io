@@ -54,6 +54,14 @@ redirect_from:
 
 ![](https://raw.githubusercontent.com/chyrta/AndroidOnboarder/master/art/demo1.gif){:height="30%" width="30%"}
 
+![](https://raw.githubusercontent.com/chyrta/AndroidOnboarder/master/art/demo2.gif){:height="30%" width="30%"}
 
+![](https://raw.githubusercontent.com/chyrta/AndroidOnboarder/master/art/demo3.gif){:height="30%" width="30%"}
 
 [TabTargetView](https://github.com/KeepSafe/TapTargetView){:target="_blank"}
+
+![](https://github.com/KeepSafe/TapTargetView/raw/master/.github/video.gif)
+
+![](https://github.com/KeepSafe/TapTargetView/raw/master/.github/screenshot1.png){:height="30%" width="30%"}
+
+![](https://github.com/KeepSafe/TapTargetView/raw/master/.github/screenshot1.png){:height="30%" width="30%"}
