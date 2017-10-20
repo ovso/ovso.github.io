@@ -58,7 +58,7 @@ redirect_from:
 
 
 
-![](https://raw.githubusercontent.com/chyrta/AndroidOnboarder/master/art/demo1.gif){:height="50%" width="50%"}
+![](https://raw.githubusercontent.com/chyrta/AndroidOnboarder/master/art/demo1.gif){:height="30%" width="30%"}
 
 
 
