@@ -12,11 +12,11 @@ redirect_from:
 
 ## [AVLoadingIndicatorView](https://github.com/81813780/AVLoadingIndicatorView){:target="_blank"}
 
-![](https://ovso.github.io/images/2017-06-26-opensource-01.gif)
+![](https://ovso.github.io/images/2017-06-26-opensource-01.gif){:height="50%" width="50%"}
 
 ## [Android-SpinKit](https://github.com/ybq/Android-SpinKit){:target="_blank"}
 
-![](https://ovso.github.io/images/2017-06-26-opensource-02.gif)
+![](https://ovso.github.io/images/2017-06-26-opensource-02.gif){:height="50%" width="50%"}
 
 ## [EasyPreferences](EasyPreferences){:target="_blank"}
 
@@ -28,7 +28,7 @@ redirect_from:
 
 ## [DiscreteScrollView](https://github.com/yarolegovich/DiscreteScrollView){:target="_blank"}
 
-![](https://github.com/yarolegovich/DiscreteScrollView/raw/master/images/cards_shop.gif) ![](https://github.com/yarolegovich/DiscreteScrollView/raw/master/images/cards_weather.gif)
+![](https://github.com/yarolegovich/DiscreteScrollView/raw/master/images/cards_shop.gif){:height="50%" width="50%"} ![](https://github.com/yarolegovich/DiscreteScrollView/raw/master/images/cards_weather.gif){:height="50%" width="50%"}
 
 ## [ButterKnife](https://github.com/JakeWharton/butterknife){:target="_blank"}
 
@@ -36,9 +36,7 @@ redirect_from:
 
 ## [RecyclerViewSnap](https://github.com/rubensousa/RecyclerViewSnap/){:target="_blank"}
 
-![](https://github.com/rubensousa/RecyclerViewSnap/raw/master/screens/snap_googleplay.gif)
-
-![](https://github.com/rubensousa/RecyclerViewSnap/raw/master/screens/snap_final.gif)
+![](https://github.com/rubensousa/RecyclerViewSnap/raw/master/screens/snap_googleplay.gif){:height="50%" width="50%"}
 
 
 
@@ -54,17 +52,11 @@ redirect_from:
 
 ![](https://raw.githubusercontent.com/chyrta/AndroidOnboarder/master/art/demo1.gif){:height="30%" width="30%"}
 
-![](https://raw.githubusercontent.com/chyrta/AndroidOnboarder/master/art/demo2.gif){:height="30%" width="30%"}
 
-![](https://raw.githubusercontent.com/chyrta/AndroidOnboarder/master/art/demo3.gif){:height="30%" width="30%"}
 
 ## [TabTargetView](https://github.com/KeepSafe/TapTargetView){:target="_blank"}
 
 ![](https://github.com/KeepSafe/TapTargetView/raw/master/.github/video.gif)
-
-![](https://github.com/KeepSafe/TapTargetView/raw/master/.github/screenshot1.png){:height="30%" width="30%"}
-
-![](https://github.com/KeepSafe/TapTargetView/raw/master/.github/screenshot1.png){:height="30%" width="30%"}
 
 
 
