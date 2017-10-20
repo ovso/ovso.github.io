@@ -10,31 +10,31 @@ redirect_from:
 
 # 쓸만한 오픈소스
 
-#### [AVLoadingIndicatorView](https://github.com/81813780/AVLoadingIndicatorView){:target="_blank"}
+## [AVLoadingIndicatorView](https://github.com/81813780/AVLoadingIndicatorView){:target="_blank"}
 
 ![](https://ovso.github.io/images/2017-06-26-opensource-01.gif)
 
-#### [Android-SpinKit](https://github.com/ybq/Android-SpinKit){:target="_blank"}
+## [Android-SpinKit](https://github.com/ybq/Android-SpinKit){:target="_blank"}
 
 ![](https://ovso.github.io/images/2017-06-26-opensource-02.gif)
 
-#### [EasyPreferences](EasyPreferences){:target="_blank"}
+## [EasyPreferences](EasyPreferences){:target="_blank"}
 
-#### [PhotoView](https://github.com/chrisbanes/PhotoView){:target="_blank"}
+## [PhotoView](https://github.com/chrisbanes/PhotoView){:target="_blank"}
 
-#### [Lombok](https://projectlombok.org/){:target="_blank"}
+## [Lombok](https://projectlombok.org/){:target="_blank"}
 
-#### [Glide](https://github.com/bumptech/glide){:target="_blank"}
+## [Glide](https://github.com/bumptech/glide){:target="_blank"}
 
-#### [DiscreteScrollView](https://github.com/yarolegovich/DiscreteScrollView){:target="_blank"}
+## [DiscreteScrollView](https://github.com/yarolegovich/DiscreteScrollView){:target="_blank"}
 
 ![](https://github.com/yarolegovich/DiscreteScrollView/raw/master/images/cards_shop.gif) ![](https://github.com/yarolegovich/DiscreteScrollView/raw/master/images/cards_weather.gif)
 
-#### [ButterKnife](https://github.com/JakeWharton/butterknife){:target="_blank"}
+## [ButterKnife](https://github.com/JakeWharton/butterknife){:target="_blank"}
 
-#### [Realm](https://realm.io/kr/docs/java/latest/){:target="_blank"}
+## [Realm](https://realm.io/kr/docs/java/latest/){:target="_blank"}
 
-#### [RecyclerViewSnap](https://github.com/rubensousa/RecyclerViewSnap/){:target="_blank"}
+## [RecyclerViewSnap](https://github.com/rubensousa/RecyclerViewSnap/){:target="_blank"}
 
 ![](https://github.com/rubensousa/RecyclerViewSnap/raw/master/screens/snap_googleplay.gif)
 
@@ -42,15 +42,15 @@ redirect_from:
 
 
 
-#### [Otto](http://square.github.io/otto/){:target="_blank"} : EventBus
+## [Otto](http://square.github.io/otto/){:target="_blank"} : EventBus
 
-#### [Hugo](https://github.com/JakeWharton/hugo){:target="_blank"} : Log Library
+## [Hugo](https://github.com/JakeWharton/hugo){:target="_blank"} : Log Library
 
-#### [AndroidPDFViewer](https://github.com/barteksc/AndroidPdfViewer){:target="_blank"}
+## [AndroidPDFViewer](https://github.com/barteksc/AndroidPdfViewer){:target="_blank"}
 
-#### [MaterialSearchView](https://github.com/MiguelCatalan/MaterialSearchView){:target="_blank"}
+## [MaterialSearchView](https://github.com/MiguelCatalan/MaterialSearchView){:target="_blank"}
 
-#### [AndroidOnBoarder](https://github.com/chyrta/AndroidOnboarder){:target="_blank" }
+## [AndroidOnBoarder](https://github.com/chyrta/AndroidOnboarder){:target="_blank" }
 
 ![](https://raw.githubusercontent.com/chyrta/AndroidOnboarder/master/art/demo1.gif){:height="30%" width="30%"}
 
@@ -58,7 +58,7 @@ redirect_from:
 
 ![](https://raw.githubusercontent.com/chyrta/AndroidOnboarder/master/art/demo3.gif){:height="30%" width="30%"}
 
-[TabTargetView](https://github.com/KeepSafe/TapTargetView){:target="_blank"}
+## [TabTargetView](https://github.com/KeepSafe/TapTargetView){:target="_blank"}
 
 ![](https://github.com/KeepSafe/TapTargetView/raw/master/.github/video.gif)
 
