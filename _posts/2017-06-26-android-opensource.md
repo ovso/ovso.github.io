@@ -65,3 +65,9 @@ redirect_from:
 ![](https://github.com/KeepSafe/TapTargetView/raw/master/.github/screenshot1.png){:height="30%" width="30%"}
 
 ![](https://github.com/KeepSafe/TapTargetView/raw/master/.github/screenshot1.png){:height="30%" width="30%"}
+
+
+
+## [Calligraphy(폰트)](https://github.com/chrisjenx/Calligraphy){:target="_blank"}
+
+## [typekit(폰트)](https://github.com/tsengvn/typekit){:target="_blank"}
