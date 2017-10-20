@@ -52,4 +52,9 @@ redirect_from:
 
 #### [AndroidOnBoarder](https://github.com/chyrta/AndroidOnboarder){:target="_blank"}
 
-![](https://raw.githubusercontent.com/chyrta/AndroidOnboarder/master/art/demo1.gif =200x400)
+![](https://raw.githubusercontent.com/chyrta/AndroidOnboarder/master/art/demo1.gif){:height="50%" width="50%"}
+
+
+
+[TabTargetView](https://github.com/KeepSafe/TapTargetView){:target="_blank"}
+
