@@ -50,11 +50,16 @@ redirect_from:
 
 #### [MaterialSearchView](https://github.com/MiguelCatalan/MaterialSearchView){:target="_blank"}
 
-#### [AndroidOnBoarder](https://github.com/chyrta/AndroidOnboarder){:target="_blank"}
+#### [AndroidOnBoarder](https://github.com/chyrta/AndroidOnboarder){:target="_blank" }
+
+```
+[]: https://raw.githubusercontent.com/chyrta/AndroidOnboarder/master/art/demo1.gif width=396px height=57px
+```
+
+
 
 ![](https://raw.githubusercontent.com/chyrta/AndroidOnboarder/master/art/demo1.gif){:height="50%" width="50%"}
 
 
 
 [TabTargetView](https://github.com/KeepSafe/TapTargetView){:target="_blank"}
-
