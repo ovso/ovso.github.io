@@ -14,9 +14,13 @@ Lombok을 사용하려면 Module수준의 build.gradle에 라이브러리를 추
 
 ### build.gradle(Module)
 
+오류가 발생할 때마다 아래에 주석처리된 종속성을 추가해보자!
+
 ```groovy
 dependencies {
     compile "org.projectlombok:lombok:1.16.18"
+  	//annotationProcessor "org.projectlombok:lombok:1.16.18"
+ 	//provided 'javax.annotation:jsr250-api:1.0'
 }
 ```
 
@@ -80,7 +84,9 @@ lombok.config 파일을 프로젝트 루트(Root)에 생성 후, 아래와 같�
 lombok.anyConstructor.suppressConstructorProperties = true
 ```
 
-##### 
+
+
+
 
 ### 기타
 
