@@ -66,10 +66,8 @@ redirect_from:
 
 ## [MPAndroidChart](https://github.com/PhilJay/MPAndroidChart){:target="_blank"}
 
-[![MPAndroidChart](https://github.com/PhilJay/MPAndroidChart/blob/master/design/video_thumbnail.png)](https://www.youtube.com/watch?v=ufaK_Hd6BpI)
+[[![MPAndroidChart](https://raw.githubusercontent.com/PhilJay/MPAndroidChart/master/design/video_thumbnail.png)](https://www.youtube.com/watch?v=ufaK_Hd6BpI){:target="_blank"}
 
 ## [hellochart-android](https://github.com/lecho/hellocharts-android){:target="_blank"}
 
-[![MPAndroidChart](https://github.com/PhilJay/MPAndroidChart/blob/master/design/video_thumbnail.png)](https://www.youtube.com/watch?v=xbSBjyjH2SY)
-
-## 
+[[![MPAndroidChart](https://raw.githubusercontent.com/lecho/hellocharts-android/master/screens/scr_dependecy_preview.gif)](https://www.youtube.com/watch?v=xbSBjyjH2SY){:target="_blank"}
