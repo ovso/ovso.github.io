@@ -73,3 +73,7 @@ redirect_from:
 ## [GraphView](https://github.com/appsthatmatter/GraphView){:target="_blank"}
 
 ## [EazeGraph](https://github.com/blackfizz/EazeGraph){:target="_blank"}
+
+## [RecyclerView-Animators](https://github.com/wasabeef/recyclerview-animators){:target="_blank"}
+
+![](https://raw.githubusercontent.com/wasabeef/recyclerview-animators/master/art/demo4.gif)e

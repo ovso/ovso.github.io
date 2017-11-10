@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Dagger 정보"
+title: "Dagger"
 description: 
 categories: [android]
 tags: [Dagger]
@@ -22,3 +22,8 @@ Dagger가 무엇인지는 구글링하면 다 나온다. 많은 개발자들이 
 @Inject Adapter adapter;
 @Inject Presenter presenter;
 ```
+
+
+# A is bound multiple times
+
+Dagger에서 A 객체를 너무 많이 사용했다는 의미다. A를 B(또는 'B extends A')다른 클래스 또는 인터페이스로 바꾸어 사용하면 문제 없이 동작한다. 좀 더 명확하게 사용하라는 메시지 인것 같다.
