@@ -76,4 +76,8 @@ redirect_from:
 
 ## [RecyclerView-Animators](https://github.com/wasabeef/recyclerview-animators){:target="_blank"}
 
-![](https://raw.githubusercontent.com/wasabeef/recyclerview-animators/master/art/demo4.gif)e
+![](https://raw.githubusercontent.com/wasabeef/recyclerview-animators/master/art/demo4.gif)
+
+## [UltraViewPager](https://github.com/alibaba/UltraViewPager){:target="_blank"}
+
+![](https://github.com/alibaba/UltraViewPager/raw/master/pics/pics4.gif)
