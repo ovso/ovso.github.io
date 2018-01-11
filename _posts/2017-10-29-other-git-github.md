@@ -22,6 +22,8 @@ redirect_from:
 
 .gitignore가 동작하지 않을 때가 있다. 캐시를 날리고 다시 추가하면 된다.
 
+[중요한 것은 아래와 같이 수행하기 전에 변경한 모든 것은 커밋되어 있어야 한다.](https://stackoverflow.com/questions/25436312/gitignore-not-working){:target="_blank"}
+
 ```
 git rm -rf --cached . // 모든 파일이 git에서 제거된다.
 git add . 			  // 모든 파일이 git에 추가(commit)된다.
