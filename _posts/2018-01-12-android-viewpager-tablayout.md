@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "ViewPage와 Tablayout사용
+title: "ViewPage와 Tablayout사용"
 description: 
 categories: [Android]
 tags: [Android]
