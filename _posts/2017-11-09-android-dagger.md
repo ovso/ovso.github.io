@@ -14,15 +14,38 @@ Dagger가 무엇인지는 구글링하면 다 나온다. 많은 개발자들이 
 
 
 
-## @Inject
+# @Inject
 
 구글링 하면 @Inject가 뭔지 알 수 있다. class상에서 @Inject의 순서는 중요하다. 초기화(객체 생성)는 선언한 순서대로다.
 
 ```java
 @Inject Adapter adapter;
 @Inject Presenter presenter;
+.
+.
 ```
 
+# @Singleton
+
+@Singleton은 Dagger에서 제공하는 Annotation이 아니다.
+
+**@Singleton을 사용하지 않았을 때**, Dagger가 주입한 객체를 재사용하는 것이 조금 부담이었다. 가령, @Inject Adapter adapter 이후 Module에서 재사용 할 때, View에서 주입한 Adapter를 다시 가져오는 방식이었다.
+
+```Java
+@Inject @Getter CustomAdapter adapter;
+@Inject Presenter presenter;
+```
+
+그러나 Module에서 @Singleton을 사용하면 그럴 필요가 없다. Singleton이기 때문에..
+
+**주의할 점**이 있다. Module에서 사용하기 전, Component에서 반드시 선언해 주어야 한다. 안해주면 에러를 뿜는다.
+
+```java
+// Component, Module, Provider 클리스 구조일 경우
+@Singleton
+@Subcomponent(modules = { EmpListFragmentModule.class }) public interface EmpListFragmentComponent
+    extends AndroidInjector<EmpListFragment>
+```
 
 # A is bound multiple times
 
