@@ -47,6 +47,26 @@ Dagger가 무엇인지는 구글링하면 다 나온다. 많은 개발자들이 
     extends AndroidInjector<EmpListFragment>
 ```
 
+# @ContributesAndroidInjector
+
+Dagger에서 이것을 사용하면, Component, Provider등의 클래스를 없앨 수 있다. 자동으로 만들어지는 것 같다.
+
+대신, @Provides를 사용하여 메서드를 선언하고 구현하려면 반드시 **static**을 사용해야 한다.
+
+```Java
+@Module public abstract class TeamReportActivityModule {
+
+  @ContributesAndroidInjector(modules = TeamReportDialogModule.class)
+  abstract TeamReportDialog bindTeamReportDialog();
+
+  @Provides static TeamReportPresenter.View provideTeamReportView(TeamReportActivity TeamReportActivity) {
+    return TeamReportActivity;
+  }
+....
+```
+
+
+
 # A is bound multiple times
 
 Dagger에서 A 객체를 너무 많이 사용했다는 의미다. A를 B(또는 'B extends A')다른 클래스 또는 인터페이스로 바꾸어 사용하면 문제 없이 동작한다. 좀 더 명확하게 사용하라는 메시지 인것 같다.
