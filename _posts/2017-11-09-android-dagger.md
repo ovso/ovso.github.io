@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "Dagger"
+title: "Dagger2"
 description: 
 categories: [android]
 tags: [Dagger]
 redirect_from:
-  - /2017/11/09/
+  - /2018/05/01/
 ---
 
 # Dagger
@@ -24,6 +24,35 @@ Dagger가 무엇인지는 구글링하면 다 나온다. 많은 개발자들이 
 .
 .
 ```
+
+# @Inject(2)
+
+클래스 생성자에 @Inject 해주면, Dagger 모듈에서 자동으로 생성해준다.
+
+```java
+public class SchedulersFacade {
+
+  @Inject
+  public SchedulersFacade() {}
+    
+}
+```
+
+아래와 같이 모듈을 생성할때, SchedulersFacade 매개변수를 선언해 준 것 만으로 객체가 생성되어 넘어온다.
+
+```java
+@Module public class SearchActivityModule {
+    
+  @Singleton @Provides
+  public SearchViewPresenter provideSearchViewPresenter(SearchViewPresenter.View view,
+      SchedulersFacade schedulers) {
+    return new SearchViewPresenterImpl(view, schedulers);
+  }
+    
+}
+```
+
+
 
 # @Singleton
 
