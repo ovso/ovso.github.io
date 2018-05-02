@@ -42,7 +42,7 @@ Gradle 3.1.1 버전의 버그다.
 
 Gradle의 최근(?) 버전은 dependencies 선언시 compile 대신 implementation 또는 api를 권한다. 2018/04/29 기준으로 최신버전은 3.1.1이다. 이 버전은 implementation을 compile로 인식을 한다.
 
-수정되어야 할 버그다.
+수정되어야 할 버그다
 
 ## 해결
 
