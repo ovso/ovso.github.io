@@ -10,6 +10,10 @@ redirect_from:
 
 # 쓸만한 오픈소스
 
+## [**Android-advancedrecyclerview**](https://github.com/h6ah4i/android-advancedrecyclerview){:target="_blank"}
+
+[![](https://camo.githubusercontent.com/8be2abfcdf6b7d7975cb164a01e96ccfd926895f/687474703a2f2f696d672e796f75747562652e636f6d2f76692f53376353774d41726a55512f302e6a7067)]((https://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE))
+
 ## [android-ui-animation-components-and-libraries](https://github.com/Ramotion/android-ui-animation-components-and-libraries){:target="_blank"}
 
 ## [AVLoadingIndicatorView](https://github.com/81813780/AVLoadingIndicatorView){:target="_blank"}
