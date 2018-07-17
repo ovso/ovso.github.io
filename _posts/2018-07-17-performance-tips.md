@@ -12,8 +12,6 @@ redirect_from:
 
 ## 정적 변수 선언
 
-인수한 프로젝트 빌드를 실패했다. 처음보는 에러다.
-
 ```java
 static int intVal = 42;
 static String strVal = "Hello, world!"
