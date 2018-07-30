@@ -73,4 +73,10 @@ found:    Object
 ...
 ```
 
-즐겁게 개발하자 :))
+## Generate APK, Proguard 등에 영향이 미치지 않는다면
+
+```java
+@SuppressWarnings("unchecked") // 이런 식으로.. 처리하자
+```
+
+이제, 즐겁게 개발하자 :))
