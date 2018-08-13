@@ -10,6 +10,12 @@ redirect_from:
 
 # 쓸만한 오픈소스
 
+## [**InkPageIndicator**](https://github.com/Commit451/InkPageIndicator){:target="_blank"}
+
+![](https://camo.githubusercontent.com/20ce240aa76cf6e70faab7b62518f59e826ff365/687474703a2f2f6661742e6766796361742e636f6d2f4a69747465727947656e75696e65467567752e676966){:height="50%" width="50%"}
+
+## 
+
 ## [**Material-ViewPagerIndicator**](https://github.com/ronaldsmartin/Material-ViewPagerIndicator){:target="_blank"}
 
 ![](https://raw.githubusercontent.com/ronaldsmartin/Material-ViewPagerIndicator/assets/screenshots/1.0.0/capture-v1.0.0.gif){:height="50%" width="50%"}
