@@ -10,6 +10,10 @@ redirect_from:
 
 # 쓸만한 오픈소스
 
+## [**Material-ViewPagerIndicator**](https://github.com/ronaldsmartin/Material-ViewPagerIndicator){:target="_blank"}
+
+![](https://raw.githubusercontent.com/ronaldsmartin/Material-ViewPagerIndicator/assets/screenshots/1.0.0/capture-v1.0.0.gif){:height="50%" width="50%"}
+
 ## [**awesome-android-ui**](https://github.com/wasabeef/awesome-android-ui){:target="_blank"}
 
 ## [**Android-advancedrecyclerview**](https://github.com/h6ah4i/android-advancedrecyclerview){:target="_blank"}
