@@ -32,3 +32,16 @@ network.getResult(this.query, page)
         }));
 ```
 
+
+
+# RxJava2 Debug
+
+디버깅 플러그인이다. 
+
+[Frodo2](https://github.com/android10/frodo2){:target="_blank"}
+
+# RxJava2 example
+
+예제가 있다.
+
+[RxJavaExample](https://github.com/amitshekhariitbhu/RxJava2-Android-Samples){:target="_blank"}
