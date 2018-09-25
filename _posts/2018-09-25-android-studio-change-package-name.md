@@ -5,7 +5,7 @@ description:
 categories: [Android]
 tags: [Android]
 redirect_from:
-  - /2018/07/09/
+  - /2018/09/25/
 ---
 
 # 패키지명을 변경해보자.
@@ -26,3 +26,6 @@ redirect_from:
 * 이렇게 하면 깔끔하게 바뀐다.
 ```
 
+# Refactor > Rename이 안될 때
+
+.idea 폴더를 지운 후(clean or rebuild) 다시 시도하면 된다.
