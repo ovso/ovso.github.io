@@ -39,3 +39,11 @@ allprojects {
 ```
 
 **주의** : plugins의  <u>반드시</u> buildScript와 allprojects 사이에 추가해줘야 한다. 그렇지 않으면 오류가 발생해 사용할 수 없다.
+
+
+
+# 참조
+
+[Unused Resources Remover for Android](https://github.com/konifar/gradle-unused-resources-remover-plugin){:target="_blank"}
+
+[https://plugins.gradle.org/plugin/com.github.konifar.gradle.unused-resources-remover](https://plugins.gradle.org/plugin/com.github.konifar.gradle.unused-resources-remover){:target="_blank"}
