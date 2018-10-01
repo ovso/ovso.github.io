@@ -10,6 +10,10 @@ redirect_from:
 
 # 쓸만한 오픈소스
 
+## [**Unused Resources Remover for Android**](https://github.com/konifar/gradle-unused-resources-remover-plugin){:target="_blank"}
+
+![](https://github.com/konifar/gradle-unused-resources-remover-plugin/raw/master/art/shell.png){:height="50%" width="50%"}
+
 ## [**InkPageIndicator**](https://github.com/Commit451/InkPageIndicator){:target="_blank"}
 
 ![](https://camo.githubusercontent.com/20ce240aa76cf6e70faab7b62518f59e826ff365/687474703a2f2f6661742e6766796361742e636f6d2f4a69747465727947656e75696e65467567752e676966){:height="50%" width="50%"}
