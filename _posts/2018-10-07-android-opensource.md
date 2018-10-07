@@ -10,7 +10,9 @@ redirect_from:
 
 # [LikeButton](https://github.com/jd-alexander/LikeButton){:target="_blank"}
 
-![](https://camo.githubusercontent.com/c75e0c73a4fd9a0b03ff6abab44221060be9d14a/687474703a2f2f692e67697068792e636f6d2f336f386470347571334b34767652314d4a4f2e676966)
+<img src="https://camo.githubusercontent.com/c75e0c73a4fd9a0b03ff6abab44221060be9d14a/687474703a2f2f692e67697068792e636f6d2f336f386470347571334b34767652314d4a4f2e676966" style="zoom:50%" />
+
+# 
 
 # Stetho
 
@@ -60,7 +62,13 @@ redirect_from:
 
 ## [DiscreteScrollView](https://github.com/yarolegovich/DiscreteScrollView){:target="_blank"}
 
-![](https://github.com/yarolegovich/DiscreteScrollView/raw/master/images/cards_shop.gif){:height="50%" width="50%"} ![](https://github.com/yarolegovich/DiscreteScrollView/raw/master/images/cards_weather.gif){:height="50%" width="50%"}
+
+
+<img src="https://github.com/yarolegovich/DiscreteScrollView/raw/master/images/cards_shop.gif" style="zoom:70%" />
+
+<img src="https://github.com/yarolegovich/DiscreteScrollView/raw/master/images/cards_weather.gif" style="zoom:70%" />
+
+ 
 
 ## [ButterKnife](https://github.com/JakeWharton/butterknife){:target="_blank"}
 
@@ -82,7 +90,7 @@ redirect_from:
 
 ## [AndroidOnBoarder](https://github.com/chyrta/AndroidOnboarder){:target="_blank" }
 
-![](https://raw.githubusercontent.com/chyrta/AndroidOnboarder/master/art/demo1.gif){:height="30%" width="30%"}
+<img src ="https://raw.githubusercontent.com/chyrta/AndroidOnboarder/master/art/demo1.gif" style="zoom:50%"/>
 
 
 
