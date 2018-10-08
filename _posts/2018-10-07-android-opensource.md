@@ -8,6 +8,14 @@ redirect_from:
   - /2018/05/02/
 ---
 
+# [SearchLiveo](https://github.com/rudsonlive/searchliveo){:target="_blank"}
+
+<img src="https://github.com/rudsonlive/SearchView-MaterialDesign/raw/master/Screenshot/SearchLiveo.png" scale="zoom:70%" />
+
+# [RollingText](https://github.com/YvesCheung/RollingText){:target="_blank"}
+
+<img src="https://raw.githubusercontent.com/YvesCheung/RollingText/master/ezgif.com-optimize.gif" scale="zoom:70%" />
+
 # [LikeButton](https://github.com/jd-alexander/LikeButton){:target="_blank"}
 
 <img src="https://camo.githubusercontent.com/c75e0c73a4fd9a0b03ff6abab44221060be9d14a/687474703a2f2f692e67697068792e636f6d2f336f386470347571334b34767652314d4a4f2e676966" style="zoom:50%" />
