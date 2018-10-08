@@ -8,6 +8,10 @@ redirect_from:
   - /2018/05/02/
 ---
 
+# [Pidcat](https://github.com/JakeWharton/pidcat){:target="_blank"}
+
+<img src="https://github.com/JakeWharton/pidcat/raw/master/screen.png" scale="zoom:50%" />
+
 # [SearchLiveo](https://github.com/rudsonlive/searchliveo){:target="_blank"}
 
 <img src="https://github.com/rudsonlive/SearchView-MaterialDesign/raw/master/Screenshot/SearchLiveo.png" scale="zoom:70%" />
