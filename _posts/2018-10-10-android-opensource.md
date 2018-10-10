@@ -5,8 +5,10 @@ description:
 categories: [Android]
 tags: [Opensource]
 redirect_from:
-  - /2018/05/02/
+  - /2018/10/10/
 ---
+
+# [오픈소스 사이트 총정리](https://coding-factory.tistory.com/209){:target="_blank"}
 
 # [Pidcat](https://github.com/JakeWharton/pidcat){:target="_blank"}
 
