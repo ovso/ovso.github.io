@@ -31,3 +31,10 @@ intent.putExtra(RecognizerIntent.EXTRA_LANGUAGE, Locale.getDefault().toLanguageT
 ```java
 LocaleListCompat.getDefault().toLanguageTags(); // ko-KR,ja-JP,it-IT
 ```
+
+또는,
+
+```java
+LocaleList.getDefault().toLanguageTags() // ko-KR,en-US,ja-JP
+```
+
