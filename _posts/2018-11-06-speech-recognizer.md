@@ -30,11 +30,13 @@ intent.putExtra(RecognizerIntent.EXTRA_LANGUAGE, Locale.getDefault().toLanguageT
 
 ```java
 LocaleListCompat.getDefault().toLanguageTags(); // ko-KR,ja-JP,it-IT
+// 또는
+LocaleList.getDefault().toLanguageTags()
 ```
 
-또는,
+특정 국가의 Tag를 얻으려면,
 
 ```java
-LocaleList.getDefault().toLanguageTags() // ko-KR,en-US,ja-JP
+Locale.KOREA.toLanguageTag();
 ```
 
