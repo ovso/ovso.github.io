@@ -39,7 +39,9 @@ tags: [Android]
 
 NEP를 막는 방법은 두 가지다. progressBar를 null체크하여 사용하거나 [WebView의 destory](https://developer.android.com/reference/android/webkit/WebView#destroy()){:trget="_blank"}를 호출하는 방법이다.
 
-null체크하는 방법은 지저분해 보인다. 화면이 종료된 후에도 WebViewClient, WebchromeClient가 남아 있다는 말이지 찝찝하기까지 하다. 때문에,
+null체크하는 방법은 지저분해 보인다. 화면이 종료된 후에도 WebViewClient, WebchromeClient가 남아 있다는 사실은 찝찝하기까지 하다.
+
+때문에, 
 
 **destory()를 호출하는 방법을 권장한다.** onDestory를 호출하면 더 이상 WebViewClient나 WebChromeClient를 더이상 호출되지 않는다. 웹뷰 내부 상태들을 파괴하기 때문이다.
 
