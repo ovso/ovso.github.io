@@ -14,7 +14,8 @@ tags: [Android]
 public class MyDialogFragment extends DialogFragment {
 	@Override public void onCreate(@Nullable Bundle savedInstanceState) {
     	super.onCreate(savedInstanceState);
-    	setStyle(DialogFragment.STYLE_NORMAL, android.R.style.Theme_Light_NoTitleBar);
+    	setStyle(DialogFragment.STYLE_NORMAL, 
+                 android.R.style.Theme_Material_Wallpaper_NoTitleBar);
 	}
 }
 ```
