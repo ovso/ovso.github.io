@@ -8,6 +8,10 @@ redirect_from:
   - /2018/10/10/
 ---
 
+# [Using SnapHelper in RecyclerView](Using SnapHelper in RecyclerView){:target="_blank"}
+
+<img src="https://mindorks.files.wordpress.com/2018/01/a92ca-1npi-wjo0ovasbkwv0gy5rw.gif" scale="zoom:50%" width="300"/>
+
 # [ViewPagerCards](https://github.com/DevExchanges/ViewPagerCards){:target="_blank"}
 
 <img src="https://camo.githubusercontent.com/e214f3605d847c9aded5cc7b8e6cc37b09405a28/687474703a2f2f692e696d6775722e636f6d2f555870566967512e676966" scale="zoom:50%" width="300"/>
