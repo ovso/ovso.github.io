@@ -118,3 +118,6 @@ ScrollView, HorizontalScrollView, TabLayout는 Divider 옵션을 사용한다.
 
 
 
+## 데이터 모델링
+
+모델링이 반드시 필요한 곳이 아니라면, 되도록 모델링을 하지 않고 원본 객체(Json 또는 연동객체)를 사용한다.
