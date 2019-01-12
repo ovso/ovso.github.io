@@ -6,9 +6,9 @@ categories: [Android]
 tags: [Android]
 ---
 
-# 안드로이드 개발(코딩) 컨벤션
+# 안드로이드 개발 및 코딩 컨벤션
 
-## 코드 스타일(Java)
+## 코드 스타일(JAVA)
 
 안드로이드 스튜디오의 [코드 스타일은 Square사의 SquareAndroid](https://github.com/square/java-code-styles)로 한다.
 
@@ -84,9 +84,9 @@ public class MainViewHolder extends ... {
 
 ## 주석
 
-**더 이상의 주석 따위 생략한다.** 
+* **주석 따위 생략한다.**
 
-아키텍쳐(MVP), 변수명, 메서드명 완벽해지도록 노력하면 주석 따위 신경 안써도 된다.
+* 아키텍쳐(MVP), 변수명, 메서드명 완벽해지도록 노력하면 주석 따위 신경 안써도 된다.
 
 
 
@@ -102,22 +102,40 @@ public class MainViewHolder extends ... {
 
 
 
-## Divider
+## 리스트 Divider
 
-리싸이클러뷰의 Divider는 오픈소스를 사용한다.
+* 리싸이클러뷰의 Divider는 오픈소스를 사용한다.
 
-ScrollView, HorizontalScrollView, TabLayout는 Divider 옵션을 사용한다.
+* ScrollView, HorizontalScrollView, TabLayout는 Divider 옵션을 사용한다.
+* 그림자가 있는 리스트라면 Margin으로 조절한다.
 
 
 
 ## 리소스명
 
+아래의 규칙을 따른다.
+
+모호 할 때가 있다. 예를 들어, 메인화면 > 뷰홀더 > 아이템... 일때 **동료와 상의하자.**
+
+![](https://ovso.github.io/images/resource_naming.png)
+
 
 
 ## 패키지 구성
+
+![](https://ovso.github.io/images/mvp_package.png)
+
+공용 클래스를 만들었는데 어디에 놓아야 할지 모르겠다면, 동료와 상의하자.
 
 
 
 ## 데이터 모델링
 
 모델링이 반드시 필요한 곳이 아니라면, 되도록 모델링을 하지 않고 원본 객체(Json 또는 연동객체)를 사용한다.
+
+
+
+## 리팩토링
+
+* 할 수 있는 시간이 없다. 당장하자.
+* 생각나면 틈을 내서 하자.
