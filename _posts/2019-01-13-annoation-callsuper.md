@@ -8,7 +8,9 @@ tags: [Android]
 
 # @CallSuper
 
-슈퍼 클래스의 메서드에서 [@CallSuper](https://developer.android.com/reference/android/support/annotation/CallSuper) 어노테이션을 사용한다.
+@CallSuper 어노테이션은, 오버라이드 하는 메서드가 어노테이팅 한 메서드도 호출할 필요가 있다는 것을 알려준다.
+
+즉, 슈퍼 클래스의 메서드에서 [@CallSuper](https://developer.android.com/reference/android/support/annotation/CallSuper) 어노테이션을 사용한다.
 
 ```java
 public class BaseViewHolder<T> extends RecyclerView.ViewHolder {
@@ -38,7 +40,7 @@ public class MainViewHolder extends BaseViewHolder<JsonElement> {
   }
 
   @Override public void bind(JsonElement $data) {
-    super.bind($data);
+    super.bind($data); // super.bind(..)를 선언하지 않으면 bind에 컴파일와 같은 밑줄이 나타난다.
     ...
     ...
   }
