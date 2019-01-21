@@ -60,6 +60,8 @@ public void init() {
 
 ### RxBus 사용과 RxBusEvent 클래스
 
+RxBus 이벤트를 송출한 곳(클래스)에 RxBusEvent 클래스를 선언한다.
+
 ```java
 public class MainViewHolder extends ... {
     ...
@@ -76,6 +78,34 @@ public class MainViewHolder extends ... {
     ...
     @Getter @AllArgsConstructor public final static class RxBusEvent {
 		private String url;
+    }
+}
+```
+
+### RxBus 관찰
+
+```java
+public class MainPresenterImpl implements MainPresenter {
+    private RxBus rxBus;
+    ...
+    public MainPresenterImpl(MainArguments args) {
+        ...
+		rxBus = args.getRxBus();
+        ...
+    }
+	public void onCreate() {
+    	...
+    	toRxBusObservable();
+    }
+    
+    private void toRxBusObservable() {
+        rxBus.toObservable.subscribe( o -> {
+            if(o instanceof MainViewHolder.RxBusEvent) {
+                // Do something
+            } else if(o instanceof ...) {
+                // Do something
+            }
+        });
     }
 }
 ```

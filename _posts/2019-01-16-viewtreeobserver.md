@@ -11,7 +11,7 @@ tags: [Android]
 
 # ChipGroup에 화면 사이즈만큼 아이템 수 제한 
 
-최초 아이템을 담을 컨테이너의 가로 크기를 ViewTreeObserver를 통해 구한다. 화면의 가로 크기와 같다.
+최초 아이템을 담을 컨테이너의 가로 크기를 ViewTreeObserver를 통해 구한다. 화면의 가로길이와 같다. 화면의 가로길이를 getResources().getDisplayMetrics().widthPixels로 간단하게 구할 수도 있지만, chipGroup 좌우로 여백을 둬야할 수도 있으니, chipGroup의 가로 길이를 구하는 것이 좋다.
 
 ```java
 private int chipGroupWidth = 0;
