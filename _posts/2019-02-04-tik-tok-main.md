@@ -5,9 +5,11 @@ categories: [Android]
 tags: [Android]
 ---
 
-[TOC]
+[틱톡 메인 화면 분석](# 틱톡 메인 화면 분석)
 
+[세로 뷰페이저 만들기](# 세로 뷰페이저 만들기)
 
+​	[Enabled의 역할 및 설정](## Enabled의 역할 및 설정)
 
 # 틱톡 메인 화면 분석
 
