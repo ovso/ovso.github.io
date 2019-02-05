@@ -13,6 +13,6 @@ tags: [Chrome]
 
 # Session Buddy
 
-크롬 브라우저에서 고정 탭을 항상 사용하고 있는 나로서는 쌍수를 들고 반길 만한 플러그인이다. 탭 설정을 저장해주기 때문이다. 이제 맘 편하게  command + q 해도 된다.
+크롬 브라우저에서 고정 탭을 항상 사용하고 있는 나로서는 쌍수를 들고 반길 만한 플러그인이다. 탭 설정을 저장해주기 때문이다. 이제 맘 편하게  ⌘ + Q 해도 된다. 
 
 ![](https://lh3.googleusercontent.com/Ty9-20agsVTgtJPT-XO2HuKXy9-JhYD4SDyTr7gugxNPRAOSv93YzA_mu75t7MAiEJzYieEWIKI=w640-h400-e365)
