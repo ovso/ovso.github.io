@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "Google Search"
-categories: [API]
-tags: [API]
+title: "구글 연관 검색어(google related search)"
+categories: [Google]
+tags: [Google]
 ---
 
 # 구글 연관검색어 
@@ -19,14 +19,15 @@ https://www.google.com/complete/search?client=xml&q=라면
 
 ```xml
 <toplevel>
-<CompleteSuggestion>
-<suggestion data="라면"/>
-</CompleteSuggestion>
-<CompleteSuggestion>
-<suggestion data="라면먹고갈래"/>
-</CompleteSuggestion>
-<CompleteSuggestion>
-<suggestion data="라면 레시피"/>
+	<CompleteSuggestion>
+		<suggestion data="라면"/>
+	</CompleteSuggestion>
+    <CompleteSuggestion>
+    	<suggestion data="라면먹고갈래"/>
+    </CompleteSuggestion>
+    <CompleteSuggestion>
+    	<suggestion data="라면 레시피"/>
+    </CompleteSuggestion>    
 ...
 ..
 .
@@ -44,7 +45,23 @@ https://www.google.com/complete/search?client=opera&q=라면
 아래는 JSON 형태의 텍스트다.
 
 ```json
-["%s",["네이버","sky캐슬","sk엔카","skyscanner","sky캐슬 다시보기","srt","ssg","sbs스페셜","steam","slack"],[],{"google:fieldtrialtriggered":true}]
+["%s",
+ [
+  "네이버",
+  "sky캐슬",
+  "sk엔카",
+  "skyscanner",
+  "sky캐슬 다시보기",
+  "srt",
+  "ssg",
+  "sbs스페셜",
+  "steam",
+  "slack"],
+ [],
+ {
+     "google:fieldtrialtriggered":true
+ }
+]
 ```
 
 혹시 json형태로도 브라우저에서 확인 가능한지는 좀 더 테스트 해봐야 할 것 같다.
