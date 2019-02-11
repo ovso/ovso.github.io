@@ -38,7 +38,32 @@ https://www.googleapis.com/customsearch/v1?q=라면&key=xxxxx&cx=xxxxx&alt=json
 
 key는 필요없지만 cx(검색 엔진 ID)가 필요하다.
 
-# Google Custom Search 설정
+# API 및 서비스
 
-Coming soon..
+[https://console.developers.google.com](https://console.developers.google.com)
 
+key를 확인할 수 있다. 
+
+[라이브러리](https://console.developers.google.com/apis/library) 메뉴는 사용할 수 있는 모든 API 목록을 보여준다.
+
+# 맞춤 검색 - 검색 엔진 수정
+
+https://www.google.co.kr/cse/
+
+검색 엔진을 설정(수정)할 수 있다.
+
+## 기본사항
+
+### 이미지 검색
+
+이미지 검색이 필요하다면 스위치를 on 한다.
+
+### 검색할 사이트
+
+여러 사이트를 등록한다. 그래야 일반(웹) 검색이든 이미지 검색이든 잘 된다.
+
+![](https://ovso.github.io/images/custom_search_add_site.png)
+
+
+
+Coming soon...
