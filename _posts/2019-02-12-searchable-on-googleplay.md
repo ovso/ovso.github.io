@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Google Play에서 검색되도록 설정"
+title: "앱이 Google Play에서 검색되도록 설정"
 categories: [개발자정책]
 tags: [google]
 ---

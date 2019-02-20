@@ -32,6 +32,8 @@ https://www.googleapis.com/customsearch/v1?q=라면&key=xxxxx&cx=xxxxx&alt=json
 }
 ```
 
+CSE 검색결과에서, **items** 의 이미지 필드( ..> src) 값이 **x-raw-image**로 시작한다면 이미지 불러오기가 실패한다. 정상적인 이미지가 아니기 때문이다.  [https://groups.google.com/forum/#!topic/google-apis-explorer-users/sUKqX7HD5B0](https://groups.google.com/forum/#!topic/google-apis-explorer-users/sUKqX7HD5B0)
+
 # Custom Search API 사용해보기
 
 [https://developers.google.com/custom-search/v1/cse/list](https://developers.google.com/custom-search/v1/cse/list)
@@ -63,7 +65,3 @@ https://www.google.co.kr/cse/
 여러 사이트를 등록한다. 그래야 일반(웹) 검색이든 이미지 검색이든 잘 된다.
 
 ![](https://ovso.github.io/images/custom_search_add_site.png)
-
-
-
-Coming soon...
