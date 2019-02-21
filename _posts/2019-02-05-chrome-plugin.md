@@ -22,3 +22,9 @@ tags: [Chrome]
 Chrome 웹스토어에서 설치한 웹 어플리케이션을 우측 탭에 한눈에 보여주고, 구글 검색까지 할 수 있도록 지원해준다.
 
 ![](https://lh3.googleusercontent.com/jt5DGJE3MKmzo_Ihw1seKzzK9ziLtoCGRUi6LQD36bXkRdmzkENIB_oP8avPw1q-r8ZdoXi1=w640-h400-e365)
+
+# Sourcegraph
+
+Github의 소스코드를 분석 할 때 객체 찾아가는 것이 불편하다. Sourcegraph 객체를 찾아갈 수 있도록 해준다.
+
+![](https://lh3.googleusercontent.com/NyNJtkYcaau4Kq6o1SALtvg76oVA4cJaH1_qjDRoNDDjibKG43Xd1SOHQeA8RMesD_yq3G_ASMI=w640-h400-e365)
