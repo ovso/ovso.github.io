@@ -8,6 +8,10 @@ redirect_from:
   - /2018/10/10/
 ---
 
+# [ThreeTenABP](<https://github.com/JakeWharton/ThreeTenABP>)
+
+Date 관련 라이브러리다. 기존에 [Joda-time](<https://github.com/JodaOrg/joda-time>)과 [ThreeTenBP](<https://github.com/ThreeTen/threetenbp>)를 대체할 수 있다. 이 라이브러리를 개발한 [Jakewharton](<https://github.com/JakeWharton>)에 의하면 Joda-time은 너무 많은 API와 Method, 설계적 결함(원작자)이 있다고 한다. ThreeTenBP는 JAR리소스를 사용하여 시간대를 로드하는데 이것은 Android에서 매우 비효율적인 매커니즘이다.  [Joda-time](<https://github.com/JodaOrg/joda-time>)도 마찬가지다. 때문에 [Jakewharton](<https://github.com/JakeWharton>)은 이 라이브러리를 개발하게 됐다.
+
 # [Using SnapHelper in RecyclerView](Using SnapHelper in RecyclerView){:target="_blank"}
 
 <img src="https://mindorks.files.wordpress.com/2018/01/a92ca-1npi-wjo0ovasbkwv0gy5rw.gif" scale="zoom:50%" width="300"/>
