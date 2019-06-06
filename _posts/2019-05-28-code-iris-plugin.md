@@ -17,3 +17,4 @@ Preferences(⌘ + ,) 창을 연다. Plugins 탭 안의 MarketPlace탭에서 Code
 
 # How to use?
 
+Android Studio IDE 우측에 탭에 Code Iris 아이콘을 탭하여 사용한다. 쉽다. ㅡ,,ㅡ;
