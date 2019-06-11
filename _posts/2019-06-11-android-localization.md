@@ -9,7 +9,7 @@ tags: [Android]
 
 회사 프로젝트라면 개발자가 현지화(strings.xml  번역)을 신경쓰지 않아도 된다. 개발자가 의사결정하지 하지 않을 테니. 그러나 규모가 작은 개인 프로젝트라면 신경써야 한다. 필자의 경우 기본(영어) 외에 5개의 언어를 추가로 현지화한다.
 
-![](../images/localization_values_folder.png)
+![](https://ovso.github.io/images/localization_values_folder.png)
 
 
 
@@ -17,9 +17,9 @@ tags: [Android]
 
 아무 언어나 현지화 하지는 않는다. 현지화 할 언어의 기준이 필요하다. 필자의 경우 구글검색결과를 참고했다. 구글엔진에 의해 첫번째로 검색되는 '세계에서 가장 많이 쓰는 언어'의 내용이 담긴 웹사이트는 2015년 작성되었다. 좀 오래되긴 했으나 이 사이트가 참조하고 있는 다른 사이트가 신뢰할만 했기 때문에 구글의 검색결과를 기준을 현지화 작업 기준으로 삼았다.
 
-![](../images/localization-language-rank.png)
+![](https://ovso.github.io/images/localization-language-rank.png)
 
-![](../images/localization-language-reference.png)
+![](https://ovso.github.io/images/localization-language-reference.png)
 
 ## 리소스 폴더(value-xx) 포멧
 
