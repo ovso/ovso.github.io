@@ -26,7 +26,7 @@ Caused by: org.xmlpull.v1.XmlPullParserException: Binary XML file line #5: <bitm
 
 # 원인
 
-Splash 화면을 구성하고 있는 아래의 xml은 다른 프로젝트에도 사용하고 있다.
+Splash 화면을 구성하고 있는 아래의 xml이다. 문제가 없어 보인다. 그러나 __@drawable/trending_up__또는 __bitmap__태그가 문제다. __trending_up__은 __vector__이미지다. 때문에 __bitmap__태그에 들어가면 안된다. __vector__를 사용하려면 __item__태그를 사용해야 한다.
 
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
@@ -40,30 +40,47 @@ Splash 화면을 구성하고 있는 아래의 xml은 다른 프로젝트에도 
 </layer-list>
 ```
 
-문제가 없는 xml이다. 그러나 [기종에 따라 문제](https://soulduse.tistory.com/70)가 되고 있다고 한다. 에러의 원인은 item 태그로 감싼 bitmap이다.
-
-때문에 위의 xml을 아래와 같이 수정해야 한다. 
 
 
+# 해결 방법 두 가지
 
-# 해결
+### 1
 
-bitmap 태그를 사용하지 않고 item태크에 직접 drawable과 gravity를 설정했다.
+__bitmap__ 태그를 사용하지 않고 __item__태크에 직접 __drawable과 gravity__를 설정하면 에러가 발생하지 않는다. 그렇지만 하위 버전, 예를 들어 롤리팝에서는 아이콘 이미지가 깨진다. 화면에 꽉찰 정도로 커진다.
 
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
 <layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+  // 배경 레이어
   <item android:drawable="@color/colorLauncherIconBg"/>
+  // 아이콘 레이어
   <item
       android:drawable="@drawable/trending_up"
       android:gravity="center"/>
 </layer-list>
 ```
 
+### 2
 
+__bitmap__태그를 사용하자. 대신 이미지는 반드시 __bitmap(xx.png)__를 사용하자.
+
+```xml
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+  <item android:drawable="@color/colorLauncherIconBg"/>
+  <item>
+    <bitmap
+        android:gravity="center"
+        android:mipMap="true"
+        android:src="@mipmap/ic_launcher_round"/>
+  </item>
+</layer-list>
+```
+
+# 주의
+
+__mipmap-anydpi-v26__ 리소스 폴더가 존재한다면 주의하자. __bitmap__태그를 썼다고 하더라도 __mipmap-anydpi-v26__ 리소스 폴더의 이미지는 __vector__ 이기 때문에 오류가 발생한다.
 
 # 결론
 
-아무리 토이프로젝트더라도 여러 종류의 단말에서 테스트해볼 필요성이 있다.
-
-참고 : [https://soulduse.tistory.com/70](https://soulduse.tistory.com/70)
+### 두 번째 방법이 좋아보인다.
