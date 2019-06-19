@@ -6,6 +6,22 @@ categories: [Android]
 tags: [Opensource]
 ---
 
+# [Android-youtubeExtractor](https://github.com/HaarigerHarald/android-youtubeExtractor)
+
+YouTube 동영상 또는 오디오 파일은 URL이므로 스트리밍하거나 다운로드 할 수 있다. 
+
+연령 확인 우회 및 서명 해독 방법 (주로 vevo 비디오 용?)
+
+<img src="https://github.com/HaarigerHarald/android-youtubeExtractor/blob/master/Screenshot_2015-04-26-17-04-382.png?raw=true" scale="zoom:50%" width="300"/>
+
+<img src="https://github.com/HaarigerHarald/android-youtubeExtractor/raw/master/Screenshot_2015-04-27-17-05-50.png" scale="zoom:50%" width="300"/>
+
+# [YoutubeExtractor](https://github.com/Commit451/YouTubeExtractor)
+
+RxJava, Retrofit을 사용하여 유투브 동영상에서 스트리밍 URL을 추출하는 오픈소스
+
+
+
 # [Lottie-android](https://github.com/airbnb/lottie-android)
 
 ![](https://github.com/airbnb/lottie-android/raw/master/gifs/Example1.gif)
