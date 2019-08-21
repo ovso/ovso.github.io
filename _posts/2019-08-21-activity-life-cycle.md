@@ -142,3 +142,7 @@ A to B 에서 B to A 했을때랑 다르다. A의 onStop()이 불리지 않았�
 # 결론
 
 A to B에서 A가 onPause()까지만 호출된다면 A가 사용자에게 보이는 상태다. 보이는 상태라는 것은 UI를 신경써서 개발해야 한다는 말이 된다. 생명주기를 잘 알고 개발할 필요가 있다.
+
+### 테스트 코드
+
+[https://github.com/ovso/ActivityLifeCycle](https://github.com/ovso/ActivityLifeCycle)
