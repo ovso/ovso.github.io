@@ -13,6 +13,25 @@ tags: [Android]
 
 # 본론
 
+작성법은 거창할게 없다. 스스로 보기에 좋아보이는, 다른 개발자의 스타일을 차용(베껴?)오면 된다. 필자가 알고 있는 작성법은 세 가지로 나뉜다.
+
+### 첫째,
+
+```groovy
+  implementation 'com.jakewharton:butterknife:10.1.0'
+  annotationProcessor 'com.jakewharton:butterknife-compiler:10.1.0'
+```
+
+### 둘째,
+
+```
+
+```
+
+
+
+### 셋째,
+
 
 
 # 결론
