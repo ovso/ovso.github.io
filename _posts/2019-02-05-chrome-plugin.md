@@ -37,3 +37,8 @@ Android SDK Search는 연관검색어까지 보여주기 때문에 아주 편리
 
 ![](https://lh3.googleusercontent.com/pUhpXhhz7bisytZqlY88scH3ZlHSuiLFCOvTS5SP9fqQIZjwWzLz6uVaoDpRX9DnrGLzWm7h3w=w640-h400-e365)
 
+# TransOver
+
+외국어 사이트에서 번역을 원하는 문장을 드래그 하면, 사용자 그 다음 액션이 없어도 번역한 문장을 보여준다.
+
+![](https://lh3.googleusercontent.com/cTJzV_zrGgyFJPfn0x-2ZyhHL19u5QbvqHS3yQnX3Y7F_ZWBaGhnsIkddRaa7jj81Ugo86HJhMQ=w640-h400-e365)
