@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "크롬 플러그인(Chrome plugin)"
-categories: [Chrome]
+categories: [Plugin]
 tags: [Chrome]
 ---
 
@@ -28,3 +28,12 @@ Chrome 웹스토어에서 설치한 웹 어플리케이션을 우측 탭에 한�
 Github의 소스코드를 분석 할 때 객체 찾아가는 것이 불편하다. Sourcegraph 객체를 찾아갈 수 있도록 해준다.
 
 ![](https://lh3.googleusercontent.com/NyNJtkYcaau4Kq6o1SALtvg76oVA4cJaH1_qjDRoNDDjibKG43Xd1SOHQeA8RMesD_yq3G_ASMI=w640-h400-e365)
+
+# Android SDK Search
+
+Android sdk 검색을 쉽게 해준다. Android SDK를 검색하는 대표적인 검색 방법으로, 크롬 주소창에서 developer.android.com을 입력 후 탭키를 눌러 검색한다. 그러나 이 방법은 입력한 문자만 검색하기 때문에 연관검색어를 알 수 없다.
+
+Android SDK Search는 연관검색어까지 보여주기 때문에 아주 편리하다. 검색 방법은 검색창에서 'ad'라고 입력한다음 탭키를 눌러 검색하면 된다.
+
+![](https://lh3.googleusercontent.com/pUhpXhhz7bisytZqlY88scH3ZlHSuiLFCOvTS5SP9fqQIZjwWzLz6uVaoDpRX9DnrGLzWm7h3w=w640-h400-e365)
+
