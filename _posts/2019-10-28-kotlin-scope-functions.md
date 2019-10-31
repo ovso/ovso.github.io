@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Scope Functions"
+title: "Kotlin Scope Functions"
 categories: [Kotlin]
 tags: [Kotlin]
 ---
@@ -38,7 +38,7 @@ println(alice)
 
 스코프 함수는 새로운 기술 기능을 도입하지 않지만 코드를보다 간결하고 읽기 쉽게 만들 수 있습니다.
 
-# Scope Functions의 특징
+# 특징(Distinctions)
 
 스코프 기능은 본질적으로 매우 유사하기 때문에 그 기능의 차이점을 이해하는 것이 중요합니다. 각 스코프 기능에는 두 가지 주요 차이점이 있습니다.
 
@@ -157,4 +157,84 @@ fun main() {
 ```
 INFO: getRandomInt() generated value 3
 ```
+
+### 람다 결과(Lambda result)
+
+`let`, `run`및 `with`는 람다 결과를 반환합니다. 따라서 결과를 변수에 할당하거나 결과에 대한 체인 작업 등을 수행 할 때 사용할 수 있습니다.
+
+```kotlin
+val numbers = mutableListOf("one", "two", "three")
+val countEndsWithE = numbers.run { 
+    add("four")
+    add("five")
+    count { it.endsWith("e") }
+}
+println("There are $countEndsWithE elements that end with e.")
+```
+
+```
+There are 3 elements that end with e.
+```
+
+또한 반환 값을 무시하고 범위 함수를 사용하여 변수의 임시 범위를 만들 수 있습니다.
+
+```kotlin
+val numbers = mutableListOf("one", "two", "three")
+with(numbers) {
+    val firstItem = first()
+    val lastItem = last()        
+    println("First item: $firstItem, last item: $lastItem")
+}
+```
+
+```
+First item: one, last item: three
+```
+
+# Functions
+
+사례에 적합한 스코프 기능을 선택하는데 도움을 드리기 위해 해당 기능을 자세히 설명하고 사용 권장 사항을 제공합니다. 기술적으로 함수는 여러 경우에 상호 교환이 가능하므로 예제는 일반적인 사용 스타일을 정의하는 규칙을 보여줍니다.
+
+## let
+
+**컨텍스트 오브젝트**는 인수 (`it`)로 사용 가능합니다. **반환 값**은 람다 결과입니다.
+
+`let`은 콜 체인의 결과에서 하나 이상의 함수를 호출하는 데 사용될 수 있습니다. 예를 들어 다음 코드는 컬렉션에 대한 두 작업의 결과를 인쇄합니다.
+
+```kotlin
+numbers = mutableListOf("one", "two", "three", "four", "five")
+val resultList = numbers.map { it.length }.filter { it > 3 }
+println(resultList)
+```
+
+```
+[5, 4, 4]
+```
+
+With `let`, you can rewrite it:
+
+```kotlin
+val numbers = mutableListOf("one", "two", "three", "four", "five")
+numbers.map { it.length }.filter { it > 3 }.let { 
+    println(it)
+    // and more function calls if needed
+}
+```
+
+```
+[5, 4, 4]
+```
+
+코드 블록에 인수로 단일 함수가 포함 된 경우 람다 대신 메소드 참조 (`: :`)를 사용할 수 있습니다.
+
+```kotlin
+val numbers = mutableListOf("one", "two", "three", "four", "five")
+numbers.map { it.length }.filter { it > 3 }.let(::println)
+```
+
+```
+[5, 4, 4]
+```
+
+`let`은 종종 null이 아닌 값으로 만 코드 블록을 실행하는 데 사용됩니다. 널이 아닌 오브젝트에서 조치를 수행하려면 세이프 콜 연산자`?.`를 사용하십시오.
 
