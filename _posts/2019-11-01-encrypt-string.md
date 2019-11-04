@@ -21,42 +21,16 @@ tags: [Android]
 
 안드로이드 스튜디오에서 SDK tools로 이동하여 NDK, CMake를 설치한다. (Preference(⌘ + ,) > Android SDK > SDK tools). C언어를 작성하고 안드로이드 앱에서 작성한 클래스를 사용하기 위해서다.
 
-![](https://raw.githubusercontent.com/ovso/ovso.github.io/master/images/ndk_cmake_down.png)
+## Package structure
 
-## NDK 패키지 구조
-
-![](https://raw.githubusercontent.com/ovso/ovso.github.io/master/images/string_security_package_structure.png)
-
-
-
-## native-lib.cpp
-
-```c
-#include <jni.h>
-
-extern "C" {
-    JNIEXPORT jstring JNICALL
-    Java_io_github_ovso_brolayout_StringSecurityActivity_invokeNativeFunction(JNIEnv *env, jobject instance) {
-        return env->NewStringUTF("V293ISBob3cgY3VyaW91cyBlaD8=");
-    }
-}
-```
-
-`NewStringUTF()` 함수의 매개변수로 암호화가 필요한 문자열을 넣는다.
-
-```
-Java_io_github_ovso_brolayout_StringSecurityActivity_invokeNativeFunction
-```
-
-`Java_패지키명_안드로이드에서 native코드를 사용한클래스_안드로이드에서 문자열을 가져오는 함수`
-
-Java : Java(안드로이드)와 연동하기위한 규칙
-
-`_패키지명` : 안드로이드 applicationId(패키지명)에서 .(닷)을 _(언더바)로 대체한다.
-
-`_호출클래스명` : 안드로이드에서 NDK코드를 사용할 클래스명
-
-`_함수` : 실제 문자열을 갖고 있는 함수명
+* app
+  * src
+    * main
+      * cpp
+        * `CMakeLists.txt`
+        * `native-lib.cpp`
+      * Java
+* `build.gradle`
 
 ## CMakeLists.txt
 
@@ -89,24 +63,53 @@ add_library( # Specifies the name of the library.
              src/main/cpp/native-lib.cpp )
 ```
 
-`cpp`의 경로를 갖고 있다. 
-
-## native-lib.c
+## native-lib.cpp
 
 ```c
-JNIEXPORT jstringJNICALL
-Java_io_github.ovso_brolayout_StringSecurityActivity_invokeNativeFunction(JNIEnv *env,
-jobject instance)
-{
+#include <cstring>
+#include <jni.h>
 
-// TODO
-
-
-return (*env)->NewStringUTF(env, returnValue
-JNIEXPORT jstring
-);
+extern "C" JNIEXPORT jstring JNICALL
+Java_io_github_ovso_brolayout_StringSecurityActivity_stringFromJNI(JNIEnv *env, jobject thiz) {
+    return env->NewStringUTF("V293ISBob3cgY3VyaW91cyBlaD8");
 }
 ```
+
+`NewStringUTF()` 함수의 매개변수로 암호화가 필요한 문자열을 넣는다.
+
+```
+Java_io_github_ovso_brolayout_StringSecurityActivity_invokeNativeFunction
+```
+
+`Java_패지키명_안드로이드에서 native코드를 사용한클래스_안드로이드에서 문자열을 가져오는 함수`
+
+Java : Java(안드로이드)와 연동하기위한 규칙
+
+`_패키지명` : 안드로이드 applicationId(패키지명)에서 .(닷)을 _(언더바)로 대체한다.
+
+`_호출클래스명` : 안드로이드에서 NDK코드를 사용할 클래스명
+
+`_함수` : 실제 문자열을 갖고 있는 함수명
+
+## build.gradle
+
+externalNativeBuild는 `CMakeLists.txt`의 경로를 갖고 있다.
+
+```groovy
+android {
+...
+..
+.
+    externalNativeBuild {
+        cmake {
+            version '3.10.2'
+            path 'src/main/cpp/CMakeLists.txt'
+        }
+    }
+}
+```
+
+
 
 # 사용
 
@@ -140,3 +143,4 @@ println(invokeNativeFunction())
 출력하니 결과가 잘 나온다. `V293ISBob3cgY3VyaW91cyBlaD8=`
 
 그럼 과연 리벌스엔지니어링(디컴파일) 했을때는 어떨까?
+
