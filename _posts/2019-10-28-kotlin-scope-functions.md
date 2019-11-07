@@ -236,5 +236,39 @@ numbers.map { it.length }.filter { it > 3 }.let(::println)
 [5, 4, 4]
 ```
 
-`let`은 종종 null이 아닌 값으로 만 코드 블록을 실행하는 데 사용됩니다. 널이 아닌 오브젝트에서 조치를 수행하려면 세이프 콜 연산자`?.`를 사용하십시오.
+`let`은 종종 널이 아닌 값으로 만 코드 블록을 실행하는 데 사용됩니다. 널이 아닌 오브젝트에서 조치를 수행하려면 세이프 콜 연산자`?.`를 사용하십시오.
+
+```kotlin
+val str: String? = "Hello"   
+//processNonNullString(str)       // compilation error: str can be null
+val length = str?.let { 
+    println("let() called on $it")        
+    processNonNullString(it)      // OK: 'it' is not null inside '?.let { }'
+    it.length
+}
+```
+
+```
+let() called on Hello
+```
+
+let을 사용하는 또 다른 경우는 코드 가독성을 향상시키기 위해 제한된 범위의 지역 변수를 도입하는 것입니다. 컨텍스트 객체의 새 변수를 정의하려면 기본 'it'대신 사용할 수 있도록 이름을 람다 인수로 제공하십시오.
+
+```kotlin
+val numbers = listOf("one", "two", "three", "four")
+val modifiedFirstItem = numbers.first().let { firstItem ->
+    println("The first item of the list is '$firstItem'")
+    if (firstItem.length >= 5) firstItem else "!" + firstItem + "!"
+}.toUpperCase()
+println("First item after modifications: '$modifiedFirstItem'")
+```
+
+```
+The first item of the list is 'one'
+First item after modifications: '!ONE!'
+```
+
+## with
+
+비 확장 기능: **컨텍스트 객체**는 인수로 전달됩니다. 그러나 람다 안에서는 receiver로 사용할 수 있습니다 (`this`).
 
