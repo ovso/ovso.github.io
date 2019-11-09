@@ -144,3 +144,9 @@ println(invokeNativeFunction())
 
 그럼 과연 리벌스엔지니어링(디컴파일) 했을때는 어떨까?
 
+
+
+참고
+
+[https://github.com/android/ndk-samples](https://github.com/android/ndk-samples)
+
