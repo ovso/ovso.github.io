@@ -13,15 +13,19 @@ tags: [Android]
 
 # [DateRangePicker](https://github.com/savvisingh/DateRangePicker)
 
-![](https://raw.githubusercontent.com/savvisingh/DateRangePicker/master/art/device-2019-05-22-131815.png)
+<img src="https://raw.githubusercontent.com/savvisingh/DateRangePicker/master/art/device-2019-05-22-131815.png" style="zoom:30%;" />
 
 
 
 # [Cosmocalendar](https://github.com/ApplikeySolutions/CosmoCalendar)
 
-![](https://github.com/ApplikeySolutions/CosmoCalendar/raw/master/pictures/Calendar-range-years_2.jpg)
+<img src="https://github.com/ApplikeySolutions/CosmoCalendar/raw/master/pictures/Calendar-range-years_2.jpg" style="zoom:70%;" />
 
 
+
+# [CalendarView](https://github.com/kizitonwose/CalendarView)
+
+![](https://raw.githubusercontent.com/kizitonwose/CalendarView/master/images/image-all.png)
 
 # Other libraries
 
@@ -31,5 +35,4 @@ tags: [Android]
 
 # 결론
 
-안드로이드 달력, 날짜 관련 라이브러리는 여러가지가 있다. 오픈소스가 지원하는 범위가 개발(기획) 범위에 맞지 않을때가 있다. 그럴땐 fork하여 개발해야 한다.
-
+안드로이드 달력, 날짜 관련 라이브러리는 여러가지가 있다. 오픈소스가 지원하는 범위가 개발(기획) 범위와 많이 다를 수 있다. 그럴땐 fork해 개발하도록 하자.
