@@ -7,7 +7,7 @@ tags: [Android]
 
 # 문제
 
-<img src="waiting-for-debugger.png" style="zoom:20%;" />
+<img src="https://raw.githubusercontent.com/ovso/ovso.github.io/master/images/waiting-for-debugger.png" style="zoom:20%;" />
 
 AVD에 앱을 빌드할때마다(Debug 'app' or Run 'app') Waiting For Debugger 팝업이 뜬다. 문제는 이 팝업이 계속 떠 있다는 것이다. 더 이상의 진행은 되지 않는다. 
 
