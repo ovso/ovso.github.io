@@ -109,6 +109,8 @@ android {
 
 # 참고
 
-** 중요 
+[https://engineering.linecorp.com/ko/blog/line-android-app-build-with-r8-compiler/](https://engineering.linecorp.com/ko/blog/line-android-app-build-with-r8-compiler/)
 
-https://engineering.linecorp.com/ko/blog/line-android-app-build-with-r8-compiler/
+[https://www.guardsquare.com/ko/blog/proguard-and-r8-comparison-optimizers](https://www.guardsquare.com/ko/blog/proguard-and-r8-comparison-optimizers)
+
+[https://www.guardsquare.com/ko/blog/comparison-proguard-vs-r8-october-2019-edition](https://www.guardsquare.com/ko/blog/comparison-proguard-vs-r8-october-2019-edition)
