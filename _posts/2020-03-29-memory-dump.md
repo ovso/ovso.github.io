@@ -13,7 +13,7 @@ tags: [Memory dump]
 
 ## 과학사전의 의미
 
-* [컴퓨터 주기억장치와 레지스터에 기억시킨 내용을 보조기억장치에 복사하는 조작. 코어덤프의 준말이다.]([https://www.scienceall.com/%eb%8d%a4%ed%94%84dump/](https://www.scienceall.com/덤프dump/))
+* [컴퓨터 주기억장치와 레지스터에 기억시킨 내용을 보조기억장치에 복사하는 조작. 코어덤프의 준말이다.](https://whatis.techtarget.com/definition/memory-dump)
 
 ## 개발에서의 의미
 
