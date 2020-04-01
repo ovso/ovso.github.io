@@ -13,7 +13,7 @@ KotlinConf 2019에서 유형의 힘에 대해 이야기했습니다. 본질적�
 
 Android 앱 가입 절차의 일부인 추적 코드를 작성하고있었습니다. 사용자가 겪을 수있는 오류 상태로부터 통찰력을 향상시키는 것이 목표였습니다. 이는 로컬 UX 결함 일 수 있지만 타사를 통해 로그인 할 때 발생하는 문제 일 수도 있습니다.
 
-My initial code looked like this:
+내 초기 코드는 다음과 같습니다:
 
 ```kotlin
 fun onError(type: ErrorType, details: String? = null) {
