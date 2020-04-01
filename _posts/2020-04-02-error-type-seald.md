@@ -1,13 +1,13 @@
 ---
 layout: post
-title: "오류 유형의 힘(The Power of Types for Errors)"
+title: "[번역]오류 유형의 힘(The Power of Types for Errors)"
 categories: [Android]
 tags: [Kotlin]
 ---
 
 # 오류 유형의 힘
 
-KotlinConf 2019에서 유형의 힘에 대해 이야기했습니다. 본질적으로, 나는 우리가 코드에서 사용하는 프리미티브의 수를 제한하여 커스텀 타입을 대신 사용하는 것에 대해 논의했습니다. 이러한 방식으로 개발자는 컴파일러를 사용하여 버그 가능성을 줄일 수있을뿐만 아니라 더 읽기 쉽고 자체 문서화 된 유형을 얻을 수 있습니다. 오늘 나는이 대화에서 내가 말한 것을 상기시키는 상황에 부딪쳤다.
+KotlinConf 2019에서 유형의 힘에 대해 이야기했습니다. 본질적으로, 나는 우리가 코드에서 사용하는 프리미티브의 수를 제한하여 커스텀 타입을 대신 사용하는 것에 대해 논의했습니다. 이러한 방식으로 개발자는 컴파일러를 사용하여 버그 가능성을 줄일 수있을뿐만 아니라 더 읽기 쉽고 자체 문서화 된 유형을 얻을 수 있습니다. 오늘 나는이 대화에서 내가 말한 것을 상기시키는 상황에 부딪혔습니다.
 
 ## 모든 것이 시작된 곳
 
@@ -174,4 +174,8 @@ sealed class Error {
 - 특정 조합 만 허용하는 방법이 있으면 유형으로 고정하십시오.
 
 물론 이에 대해 더 자세히 알고 싶다면 [내 슬라이드](https://speakerdeck.com/dpreussler/the-power-of-types-kotlinconf-2019)에서 더 많은 예제를 보고 [대화 내용](https://www.youtube.com/watch?v=t3DBzaeid74)을 확인하십시오.
+
+## 출처
+
+[https://developers.soundcloud.com/blog/power-of-types-for-errors](https://developers.soundcloud.com/blog/power-of-types-for-errors)
 
