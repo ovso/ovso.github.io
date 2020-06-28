@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "내부 앱 공유"
+title: "오픈소스 사용 공지"
 categories: [Android]
 tags: [Android]
 ---
