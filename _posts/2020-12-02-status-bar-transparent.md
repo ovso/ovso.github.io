@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "오픈소스를 위한 오픈소스(Licenses)"
+title: "오직 상태표시줄만 투명하게 하기(StatusBar)"
 categories: [Android]
 tags: [Android]
 ---
